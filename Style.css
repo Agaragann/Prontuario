@@ -1,0 +1,133 @@
+
+/*É necessário fazer uma limpa nas divs não usadas... */
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+.faixa {
+    /* Essa faixa fica acima do cabeçalho */
+    /* É aquela faixa azul com telefone e link(botão) "Agende sua consulta" */
+    align-items: center;
+    background-color: #031D38;
+    display: flex;
+    font-family: var(--texto);
+    font-weight: 600;
+    font-size: 20px;
+    height: 50px;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.faixa p {
+    color: white;
+}
+
+.faixa a {
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    color: blueviolet;
+    display: flex;
+    font-size: 16px;
+    height: 30px;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 3%;
+    text-decoration: none;
+    text-align: center;
+    min-width: 185px;
+    max-width: 208px;
+}
+
+.cabecalho__container {
+    align-items: center;
+    background-color: white;
+    color: blueviolet;
+    display: flex;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: var(--titulo);
+    height: 100px;
+    justify-content: space-between;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.logo__cabecalho {
+    height: 85px;
+    margin-left: 3%;
+    min-width: 150px;
+    max-width: 235px;
+}
+
+.cabecalho__menu {
+    display: flex;
+}
+
+.cabecalho__menu__lista {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 900px;
+}
+
+.cabecalho__menu__lista li {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cabecalho__menu__lista a {
+    align-items: center;
+    display: flex;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.cabecalho__link__login {
+    align-items: center;
+    background: purple;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    margin: 0 3%;
+    text-decoration: none;
+    width: 138px;
+    margin: 140px;
+}
+
+@media screen and (max-width: 425px) {
+    .faixa {
+        font-size: 16px;
+        justify-content: space-evenly;
+    }
+
+    .faixa a {
+        margin: 0;
+    }
+}
+
+p{
+    margin: 120px;
+}
+
+
+/*Aumento ou deixo assim??*/
+.Imagem--width {
+  width: 100%;
+  height: 150px;
+}
+
+H2{
+    text-align: center;
+    color:#031D38;
+    font-weight: 600;
+}
